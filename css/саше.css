@@ -174,9 +174,9 @@ footer nav a {
 
 
 
-@media all and (min-width: 300px) and (max-width: 378px) {
+@media all and (min-width: 300px) and (max-width: 415px) {
     .container {
-        width: 360px;
+        width: 100%;
         margin: 0 auto;
     }
 
