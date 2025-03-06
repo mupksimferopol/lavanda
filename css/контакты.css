@@ -1,0 +1,305 @@
+*{
+    color: black; 
+    font-family: "URW";
+    font-style: italic;
+} 
+
+.container {
+    max-width: 1850px;
+    margin:0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(132, 105, 199);
+}
+
+.logo-list {
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    gap: 70px;
+    background-color: rgb(132, 105, 199);
+}
+
+.list {
+    letter-spacing: 2px;
+    border-style: none;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.list_n{
+    text-decoration: none; 
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.list_nn{
+    text-decoration: none; 
+    color: #000000;
+    font-size: 35px;
+}
+
+.chapter{
+    text-align: center;
+}
+
+.big-slogan{
+    font-size: 55px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(132, 105, 199);
+}
+
+.big-slogan:hover {
+    text-align: center;
+    background-color: rgb(132, 105, 199);
+    color: white;
+    border-radius: 5px;
+    transition-duration: 2s;
+}
+
+h1 {
+    color: rgb(132, 105, 199);
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+    margin: 40px;
+    font-size: 100px;
+    padding: 5px;
+}
+
+.data__1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 20px;
+    border-left: solid black 4px;
+}
+
+.data__1:hover{
+    border-left: double black 7px;
+}
+
+.data__links{
+    text-decoration: none;
+}
+
+.data__2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 20px;
+    border-left: solid black 4px;
+}
+
+.address{
+    color: rgb(132, 105, 199);
+}
+
+.data__2:hover{
+    border-left: double black 7px;
+}
+
+span{
+    color: rgb(132, 105, 199);
+    display: flex;
+    font-size: 30px;
+    justify-content: left;
+}
+
+.d{
+    color: rgb(132, 105, 199);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgb(132, 105, 199);
+    color:  #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer__ML{
+    background-color: rgb(132, 105, 199);
+}
+
+
+
+@media all and (max-width: 415px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .list a {
+        font-size: 25px;
+    }
+    
+    .chapter p{
+        font-size: 20px;
+    }
+    
+    .big-slogan{
+        font-size: 35px;
+    }
+
+    .data{
+        display: grid;
+        margin: 5px auto;
+    }
+
+    .data h2{
+        font-size: 27px;
+    }
+
+    .data span{
+        font-size: 22px;
+    }
+    
+    .data a{
+        font-size: 16px;
+    }
+
+    .data p{
+        font-size: 16px;
+    }
+
+    footer {
+
+        width: 90%;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    footer p{
+        font-size: 17px;
+    }
+}
+
+
+
+@media all and (min-width: 520px) and (max-width: 576px) {
+    .container {
+        width: 576px;
+        margin: 0 auto;
+    }
+
+    .logo-list{
+        justify-content: left;
+        height: -20px;
+    }
+
+    .list{
+        text-align: left;
+        height: -20px;
+    }
+
+    .chapter{
+        text-align: left;
+        font-size: 25px;
+        margin: 15px;
+    }
+
+    .chapter{
+        font-size: 14px;
+        width: 576px;
+    }
+
+    .big-slogan{
+        text-align: left;
+        font-size: 45px;
+        margin: 35px;
+    }
+
+    .data{
+        justify-content: left;
+        margin: 90px;
+        height: 900px;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        width: 90%;
+        font-size: 15px;
+        text-align: center;
+        margin: -45px;
+    }
+    
+    footer p{
+        font-size: 17px;
+        width: 576px;
+    }
+}
+
+
+
+@media all and (min-width: 720px) and (max-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+    
+    .data{
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .data h2{
+        font-size: 27px;
+    }
+
+    .data span{
+        font-size: 24px;
+    }
+    
+    .data a{
+        font-size: 22px;
+    }
+
+    .data p{
+        font-size: 22px;
+    }
+}

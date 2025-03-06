@@ -1,0 +1,331 @@
+* {
+    color: black;
+    font-family: "URW";
+    font-style: italic;
+}
+
+.container {
+    max-width: 1850px;
+    margin: 0 auto;
+}
+
+.logo-list {
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    gap: 70px;
+    background-color: rgb(132, 105, 199);
+}
+
+.list {
+    letter-spacing: 2px;
+    border-style: none;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.list_n {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.list_nn {
+    text-decoration: none;
+    color: #000000;
+    font-size: 35px;
+}
+
+.logo-img {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 4%;
+    font-size: 120px;
+}
+
+.logo-img img {
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.list__logo {
+    font-size: 35px;
+    text-align: left;
+}
+
+.kr__c {
+    color: rgb(132, 105, 199);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image img {
+    width: 300px;
+    height: 400px;
+}
+
+.Lorem {
+    display: flex;
+    font-size: 35px;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin: 2px;
+    color: black;
+}
+
+.text {
+    margin: 40px;
+    font-size: 100px;
+    padding: 5px;
+}
+
+.text__p {
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-align: left;
+    padding: 20px;
+    border-left: solid black 4px;
+}
+
+.text__p:hover {
+    border-left: double black 7px;
+
+}
+
+.H_R {
+    background-color: rgb(132, 105, 199);
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.li {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  /*  width: 140px;
+    height: 170px;*/
+    font-size: 30px;
+    gap: 10px;
+}
+
+.li img{
+    max-width: 350px;
+}
+
+.Reviews {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 45px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.section-best-service {
+    padding: 5px;
+}
+
+.section-best-service__title--black:hover {
+    border-left: double black 7px;
+    transition-duration: 1s;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(132, 105, 199);
+    color: rgb(132, 105, 199);
+    max-width: 100%;
+    font-size: 30px;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: rgb(132, 105, 199);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 415px) and (min-width: 200px){
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-img img {
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .list a {
+        font-size: 25px;
+    }
+
+    .kr__c {
+        font-size: 40px;
+    }
+
+    .list__logo li {
+        font-size: 20px;
+    }
+
+    .image {
+        width: 350px;
+    }
+
+    .image img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .Lorem {
+        flex-direction: column;
+        font-size: 20px;
+        margin-top: -100px;
+    }
+
+    .text__p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .H_R {
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .Reviews {
+        font-size: 29px;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .li {
+        width: 200px;
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .li img {
+        width: calc(80% - 10px);
+    }
+
+    footer {
+        width: 90%;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    footer p{
+        font-size: 17px;
+    }
+}
+
+
+
+@media all and (min-width: 520px) and (max-width: 576px) {
+    .container {
+        width: 576px;
+        margin: 0 auto;
+    }
+
+    .H_R{
+        display: flex;
+    }
+    
+    .li{
+        display: flex;
+    }
+}
+
+
+
+@media all and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .logo-img img {
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .kr__c {
+        font-size: 40px;
+    }
+
+    .list__logo li {
+        font-size: 15px;
+    }
+
+    .image img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .Lorem {
+        font-size: 20px;
+        margin-top: -100px;
+    }
+
+    .text__p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .H_R {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .Reviews {
+        font-size: 29px;
+        margin: 0px;
+    }
+
+    footer {
+        width: 90%;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    footer p{
+        font-size: 17px;
+    }
+}
